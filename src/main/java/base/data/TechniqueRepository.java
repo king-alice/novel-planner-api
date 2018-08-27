@@ -10,8 +10,6 @@ import base.domain.Technique;
 
 @Component
 public interface TechniqueRepository extends CrudRepository<Technique, UUID>{
-
-	//Technique findByTechniqueType(TechniqueType type);
 	
 	public Technique findByTechniqueType(TechniqueType type);
 	
